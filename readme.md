@@ -4,19 +4,6 @@ Chatbot AI - Tự Train với Transformer
 
 Đây là một chatbot AI được xây dựng từ đầu bằng mô hình Transformer, không phụ thuộc vào API bên ngoài như OpenAI. Mô hình sẽ được huấn luyện trên dữ liệu hội thoại và có thể trả lời tin nhắn của người dùng.
 
-📂 Cấu trúc thư mục
-
-chatbot-llama/         # Thư mục chính của dự án
-│── backend/           # Chứa mã backend (API & model)
-│   │── main.py        # API chatbot
-│   │── model.py       # Mô hình AI (Transformer)
-│   │── train.py       # Huấn luyện mô hình
-│── models/            # Chứa mô hình AI đã train
-│   │── chatbot_model.pth  # Mô hình AI đã lưu
-│── requirements.txt   # Danh sách thư viện cần cài
-│── README.md          # Hướng dẫn sử dụng dự án
-│── .gitignore         # Bỏ qua file không cần đẩy lên GitHub
-
 🛠 Cài đặt
 
 1. Cài đặt thư viện cần thiết
