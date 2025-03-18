@@ -9,6 +9,8 @@ Chatbot AI - Tự Train với Transformer
 1. Cài đặt thư viện cần thiết
 
 pip install -r requirements.txt
+pip install torch torchvision torchaudio
+pip install fastapi uvicorn
 
 2. Train mô hình
 
@@ -18,7 +20,7 @@ Sau khi train xong, mô hình sẽ được lưu vào thư mục models/
 
 3. Chạy API chatbot
 
-uvicorn backend.main:app --reload
+python -m uvicorn backend.main:app --reload
 
 Sau khi chạy, truy cập API tại:
 👉 http://127.0.0.1:8000/chat?prompt=Hello
