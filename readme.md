@@ -35,10 +35,29 @@ Sau khi chạy, truy cập API tại:
 🚀 Đẩy lên GitHub
 
 git init
+
+
+
 git add .
+
+
+
+
 git commit -m "Upload chatbot AI tự train"
+
+
+
+
 git branch -M main
+
+
+
+
 git remote add origin https://github.com/USERNAME/chatbot-llama.git
+
+
+
+
 git push -u origin main
 
 👉 Thay USERNAME bằng GitHub của bạn.
